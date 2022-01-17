@@ -6,8 +6,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - my-frontend',
-    title: 'my-frontend',
+    titleTemplate: '',
+    title: 'Luis E Valdivia',
     htmlAttrs: {
       lang: 'en'
     },
@@ -38,15 +38,12 @@ export default {
     // vuetify seems to NOT work with vite
     // uncomment vuetify and comment vite for production
     // https://go.nuxtjs.dev/vuetify
-    // '@nuxtjs/vuetify',
-    'nuxt-vite',
+    '@nuxtjs/vuetify',
+    // 'nuxt-vite',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-  ],
-
-
+  modules: ['@nuxtjs/axios'],
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
