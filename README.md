@@ -1,4 +1,4 @@
-# my-frontend
+Frontend version for personal site with Nuxt.js, deployed statically by locally connecting with axios to strapi.
 
 ## Build Setup
 
